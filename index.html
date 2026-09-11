@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álvaro Márquez | Analista de Datos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 antialiased selection:bg-gray-200">
+
+    <!-- Navegación Minimalista -->
+    <nav class="w-full bg-white border-b border-gray-100 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="#" class="text-lg font-semibold tracking-tight text-gray-900">Álvaro Márquez.</a>
+            <div class="space-x-6 text-sm font-medium text-gray-500">
+                <a href="#proyectos" class="hover:text-gray-900 transition">Proyectos</a>
+                <a href="#experiencia" class="hover:text-gray-900 transition">Experiencia</a>
+                <a href="#cursos" class="hover:text-gray-900 transition">Formación</a>
+                <a href="#contacto" class="hover:text-gray-900 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="pt-24 pb-16 px-6">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="text-center md:text-left flex-1">
+                <h1 class="text-4xl md:text-5xl font-semibold text-gray-900 mb-6 tracking-tight">Analista de Datos <br><span class="text-gray-400">&</span> Machine Learning</h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-xl font-light leading-relaxed">
+                    Transformo datos crudos en decisiones estratégicas. Especializado en pipelines ETL, inteligencia de negocios e implementación de modelos predictivos.
+                </p>
+                
+                <!-- Herramientas Data Science -->
+                <div class="flex flex-wrap gap-2 justify-center md:justify-start mb-8">
+                    <span class="px-3 py-1 border border-gray-200 text-gray-600 rounded text-xs font-medium tracking-wide">Python</span>
+                    <span class="px-3 py-1 border border-gray-200 text-gray-600 rounded text-xs font-medium tracking-wide">SQL</span>
+                    <span class="px-3 py-1 border border-gray-200 text-gray-600 rounded text-xs font-medium tracking-wide">Pandas & Scikit-Learn</span>
+                    <span class="px-3 py-1 border border-gray-200 text-gray-600 rounded text-xs font-medium tracking-wide">Power BI</span>
+                    <span class="px-3 py-1 border border-gray-200 text-gray-600 rounded text-xs font-medium tracking-wide">Airflow</span>
+                    <span class="px-3 py-1 border border-gray-200 text-gray-600 rounded text-xs font-medium tracking-wide">IA Generativa</span>
+                </div>
+
+                <div class="flex gap-5 justify-center md:justify-start">
+                    <a href="https://linkedin.com/in/altvaro" target="_blank" class="text-gray-400 hover:text-gray-900 text-xl transition"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/alvaromarqueztraslavina" target="_blank" class="text-gray-400 hover:text-gray-900 text-xl transition"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:alvaromarqueztraslavina@gmail.com" class="text-gray-400 hover:text-gray-900 text-xl transition"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="w-40 h-40 rounded-full bg-gray-100 overflow-hidden shrink-0 flex justify-center items-center grayscale hover:grayscale-0 transition duration-500">
+                <!-- Reemplazar src por foto tuya -->
+                <i class="fa-solid fa-user text-4xl text-gray-300"></i>
+                <!-- <img src="ruta/foto.jpg" alt="Álvaro" class="w-full h-full object-cover"> -->
+            </div>
+        </div>
+    </header>
+
+    <hr class="max-w-4xl mx-auto border-gray-100">
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-10 tracking-tight">Proyectos Destacados</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Proyecto ML -->
+                <div class="group border border-gray-100 hover:border-gray-300 rounded p-6 transition flex flex-col">
+                    <h3 class="text-lg font-medium text-gray-900 mb-2">Clasificador predictivo (Machine Learning)</h3>
+                    <p class="text-sm text-gray-500 mb-6 font-light leading-relaxed flex-grow">
+                        Análisis predictivo utilizando algoritmos de clasificación. El proyecto abarca desde la limpieza de datos (EDA) y la ingeniería de características hasta la evaluación de modelos usando Scikit-Learn.
+                    </p>
+                    <div class="flex gap-2 mb-6">
+                        <span class="text-xs text-gray-400 font-medium">Scikit-Learn</span>
+                        <span class="text-xs text-gray-400 font-medium">&bull;</span>
+                        <span class="text-xs text-gray-400 font-medium">Pandas</span>
+                    </div>
+                    <a href="proyectos/m8-proyecto/README.md" class="text-sm text-gray-900 font-medium inline-flex items-center gap-2 group-hover:underline">
+                        Ver análisis <i class="fa-solid fa-arrow-right text-xs transition group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+
+                <!-- Proyecto ETL / Power BI -->
+                <div class="group border border-gray-100 hover:border-gray-300 rounded p-6 transition flex flex-col">
+                    <h3 class="text-lg font-medium text-gray-900 mb-2">Dashboard de Alerta Temprana</h3>
+                    <p class="text-sm text-gray-500 mb-6 font-light leading-relaxed flex-grow">
+                        Diseño de un modelo de datos en Power BI para el seguimiento de la deserción, integrando información desde bases de datos relacionales mediante un pipeline ETL orquestado.
+                    </p>
+                    <div class="flex gap-2 mb-6">
+                        <span class="text-xs text-gray-400 font-medium">Power BI</span>
+                        <span class="text-xs text-gray-400 font-medium">&bull;</span>
+                        <span class="text-xs text-gray-400 font-medium">SQL</span>
+                        <span class="text-xs text-gray-400 font-medium">&bull;</span>
+                        <span class="text-xs text-gray-400 font-medium">ETL</span>
+                    </div>
+                    <a href="#" class="text-sm text-gray-900 font-medium inline-flex items-center gap-2 group-hover:underline">
+                        Ver dashboard <i class="fa-solid fa-arrow-right text-xs transition group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Analítica -->
+    <section id="experiencia" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-10 tracking-tight">Experiencia en Datos</h2>
+            
+            <div class="space-y-10">
+                <!-- Rol 1 -->
+                <div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                        <h3 class="text-lg font-medium text-gray-900">Coordinador Área de Tecnología (Enfoque en Datos)</h3>
+                        <span class="text-sm text-gray-400 font-medium tracking-wide">2022 — Presente</span>
+                    </div>
+                    <p class="text-sm text-gray-800 font-medium mb-3">Universidad de Tarapacá</p>
+                    <ul class="text-sm text-gray-600 font-light leading-relaxed list-disc list-inside space-y-1">
+                        <li>Implementación de pipelines de datos (ETL) utilizando Python, SQL y Airflow.</li>
+                        <li>Diseño de un sistema de alerta temprana basado en modelos de Machine Learning.</li>
+                        <li>Desarrollo y visualización de Dashboards gerenciales en Power BI para la toma de decisiones.</li>
+                    </ul>
+                </div>
+
+                <!-- Rol 2 -->
+                <div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                        <h3 class="text-lg font-medium text-gray-900">Analista de Datos e Innovación Curricular</h3>
+                        <span class="text-sm text-gray-400 font-medium tracking-wide">2016 — 2022</span>
+                    </div>
+                    <p class="text-sm text-gray-800 font-medium mb-3">Universidad de Tarapacá</p>
+                    <ul class="text-sm text-gray-600 font-light leading-relaxed list-disc list-inside space-y-1">
+                        <li>Extracción y análisis de datos a gran escala (más de 10.000 usuarios) para reportes de desempeño e interacción.</li>
+                        <li>Desarrollo de métricas y learning analytics aplicadas a plataformas institucionales.</li>
+                    </ul>
+                </div>
+                
+                <!-- Rol 3 -->
+                <div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                        <h3 class="text-lg font-medium text-gray-900">Docente Universitario de Datos</h3>
+                        <span class="text-sm text-gray-400 font-medium tracking-wide">2020 — 2024</span>
+                    </div>
+                    <p class="text-sm text-gray-800 font-medium mb-3">Instituto Profesional Santo Tomás</p>
+                    <ul class="text-sm text-gray-600 font-light leading-relaxed list-disc list-inside space-y-1">
+                        <li>Docencia en asignaturas de Bases de Datos y Minería de Datos (Orange Data Mining).</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Recientes -->
+    <section id="cursos" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-10 tracking-tight">Formación y Cursos Recientes (2026)</h2>
+            
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
+                <!-- Elemento de educación -->
+                <div class="border-b border-gray-100 pb-4">
+                    <h4 class="text-sm font-medium text-gray-900">Bootcamp Ciencia de Datos</h4>
+                    <p class="text-xs text-gray-500 mt-1">Talento Digital</p>
+                </div>
+                <div class="border-b border-gray-100 pb-4">
+                    <h4 class="text-sm font-medium text-gray-900">Diplomado Big Data y Machine Learning</h4>
+                    <p class="text-xs text-gray-500 mt-1">Universidad Autónoma</p>
+                </div>
+                <div class="border-b border-gray-100 pb-4">
+                    <h4 class="text-sm font-medium text-gray-900">Diplomado en Arquitectura de Software</h4>
+                    <p class="text-xs text-gray-500 mt-1">Universidad Autónoma</p>
+                </div>
+                <div class="border-b border-gray-100 pb-4">
+                    <h4 class="text-sm font-medium text-gray-900">Fundamentos de Ingeniero IA con Python</h4>
+                    <p class="text-xs text-gray-500 mt-1">Código Facilito</p>
+                </div>
+                <div class="border-b border-gray-100 pb-4">
+                    <h4 class="text-sm font-medium text-gray-900">Bootcamp Desarrollo de software basado en agentes</h4>
+                    <p class="text-xs text-gray-500 mt-1">Código Facilito (Kiro)</p>
+                </div>
+                <div class="border-b border-gray-100 pb-4">
+                    <h4 class="text-sm font-medium text-gray-900">Fundamentos de la IA</h4>
+                    <p class="text-xs text-gray-500 mt-1">Google</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-sm text-gray-500 font-light">
+                * Ingeniero de Ejecución en Computación e Informática (Universidad de Tarapacá).
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 px-6 bg-gray-50 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4 tracking-tight">Hablemos de datos</h2>
+            <p class="text-gray-500 mb-8 font-light max-w-md mx-auto">Si buscas un perfil analítico que pueda integrar fuentes de datos complejas e implementar soluciones de Machine Learning.</p>
+            <a href="mailto:alvaromarqueztraslavina@gmail.com" class="inline-block px-6 py-3 bg-gray-900 text-white text-sm font-medium rounded hover:bg-gray-800 transition">
+                Enviar correo
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-100 py-8 text-center text-xs text-gray-400 font-light">
+        <p>&copy; 2026 Álvaro Márquez Traslaviña. Minimal Portfolio.</p>
+    </footer>
+
+</body>
+</html>
